@@ -1,0 +1,85 @@
+{
+  "Data": [
+    {
+      "No": 27780,
+      "Supply Time": " 2018-1-10T09:06:51.844",
+      "Responsibility": "Activate.NCR.ChnApp",
+      "Owner": "WithdrawalCore",
+      "Supply Point Type": "Always On",
+      "Function Name": "WithdrawalTransactionUS:WithdrawalBase.Execute",
+      "Free Text": "Other:Execute"
+    },
+    {
+      "No": 81655,
+      "Supply Time": " 2018-1-10T09:07:51.844",
+      "Responsibility": "Activate.NCR.ChnApp",
+      "Owner": "WithdrawalCore",
+      "Supply Point Type": "Always On",
+      "Function Name": "WithdrawalTransactionUS:WithdrawalBase.DebitTransletAuthorised",
+      "Free Text": "Other:Authorized-Success"
+    },
+    {
+      "No": 88897,
+      "Supply Time": " 2018-1-10T09:07:51.944",
+      "Responsibility": "Activate.NCR.ChnApp",
+      "Owner": "WithdrawalCore",
+      "Supply Point Type": "Always On",
+      "Function Name": "WithdrawalTransactionUS:WithdrawalBase.Continue",
+      "Free Text": "Other:Continue after authorisation"
+    },
+    {
+      "No": 90617,
+      "Supply Time": " 2018-1-10T09:07:52.844",
+      "Responsibility": "Activate.NCR.ChnApp",
+      "Owner": "WithdrawalCore",
+      "Supply Point Type": "Always On",
+      "Function Name": "DispenserManager.StartDispense",
+      "Free Text": "DeviceAction:Cash mix successful"
+    },
+    {
+      "No": 95928,
+      "Supply Time": " 2018-1-10T09:07:58.844",
+      "Responsibility": "Activate.NCR.ChnApp",
+      "Owner": "WithdrawalCore",
+      "Supply Point Type": "Always On",
+      "Function Name": "CashDispenserService:CashDispenserPresented",
+      "Free Text": "DeviceAction:Cash presented"
+    },
+    {
+      "No": 133874,
+      "Supply Time": " 2018-1-10T09:08:41.844",
+      "Responsibility": "Activate.NCR.ChnApp",
+      "Owner": "WithdrawalCore",
+      "Supply Point Type": "Always On",
+      "Function Name": "CashDispenserService:CashDispenserNoCurrency",
+      "Free Text": "DeviceAction:"
+    },
+    {
+      "No": 155248,
+      "Supply Time": " 2018-1-10T09:08:51.844",
+      "Responsibility": "Activate.NCR.ChnApp",
+      "Owner": "BusSrvNDC.Acct",
+      "Supply Point Type": "Always On",
+      "Function Name": "DebitReversalBusOp.ProcessNoResponse",
+      "Free Text": "HostMessage:Failed to send message to host as status is TimedOutWaitingForResponse"
+    },
+    {
+      "No": 155731,
+      "Supply Time": " 2018-1-10T09:08:58.844",
+      "Responsibility": "Activate.NCR.ChnApp",
+      "Owner": "WithdrawalCore",
+      "Supply Point Type": "Always On",
+      "Function Name": "WithdrawalTransactionUS:WithdrawalBase.DebitTransletExecuted",
+      "Free Text": "Other:Translet is reversed"
+    },
+    {
+      "No": 163472,
+      "Supply Time": " 2018-1-10T09:09:51.844",
+      "Responsibility": "Activate.NCR.ChnApp",
+      "Owner": "WithdrawalCore",
+      "Supply Point Type": "Always On",
+      "Function Name": "WithdrawalTransactionUS:WithdrawalBase.CompleteExecution",
+      "Free Text": "Other:Complete-Failed"
+    }
+  ]
+}
